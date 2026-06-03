@@ -1,0 +1,28 @@
+# Unity generated
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Recordings/
+
+# Build output
+Build/
+Builds/
+
+# IDE
+.vs/
+.idea/
+*.suo
+*.user
+
+# Auto-generated project files
+*.csproj
+*.sln
+*.slnx
+
+# User-specific
+UserSettings/
+
+# Plastic SCM
+.plastic/

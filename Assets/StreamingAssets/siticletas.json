@@ -1,0 +1,973 @@
+{
+  "objects": [
+    {
+      "id": "siticleta_001",
+      "nombre": "Sitycleta Torre Las Palmas",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4297307,
+      "latitude": 28.1290047,
+      "height": 11.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_002",
+      "nombre": "Sitycleta Oficina de la Sitycleta",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4248723,
+      "latitude": 28.1216591,
+      "height": 13.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_003",
+      "nombre": "Sitycleta Plaza O'Shanahan",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4248512,
+      "latitude": 28.1188846,
+      "height": 19.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_004",
+      "nombre": "Sitycleta Gabinete Literario",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4163298,
+      "latitude": 28.1025889,
+      "height": 24.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 30,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_005",
+      "nombre": "Sitycleta Plaza de España (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4349863,
+      "latitude": 28.1347297,
+      "height": 33.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_006",
+      "nombre": "Sitycleta Churruca",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4406753,
+      "latitude": 28.13373,
+      "height": 15.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_007",
+      "nombre": "Sitycleta San Telmo",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4173744,
+      "latitude": 28.1083124,
+      "height": 16.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_008",
+      "nombre": "Sitycleta Plaza Manuel Becerra",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4214077,
+      "latitude": 28.1502366,
+      "height": 13.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_009",
+      "nombre": "Sitycleta Castillo de la Luz",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4271046,
+      "latitude": 28.1483704,
+      "height": 13.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_010",
+      "nombre": "Sitycleta Torre Woermann",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4300373,
+      "latitude": 28.1452898,
+      "height": 16.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_011",
+      "nombre": "Sitycleta Piscina Julio Navarro",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4297942,
+      "latitude": 28.1212853,
+      "height": 30.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_012",
+      "nombre": "Sitycleta Parque Santa Catalina",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4310734,
+      "latitude": 28.1413595,
+      "height": 23.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_013",
+      "nombre": "Sitycleta Teatro Pérez Galdós",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4146727,
+      "latitude": 28.1041787,
+      "height": 18.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 31,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_014",
+      "nombre": "Sitycleta Oficina Sítycleta (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.42495,
+      "latitude": 28.1217423,
+      "height": 13.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_015",
+      "nombre": "Sitycleta Ayuntamiento",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4285438,
+      "latitude": 28.1247048,
+      "height": 14.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_016",
+      "nombre": "Sitycleta C.C. El Muelle",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.42806,
+      "latitude": 28.1404035,
+      "height": 6.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_017",
+      "nombre": "Sitycleta Las Canteras - Luis Morote",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.434872,
+      "latitude": 28.1412247,
+      "height": 17.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_018",
+      "nombre": "Sitycleta Plazoleta de Farray",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4353936,
+      "latitude": 28.1370597,
+      "height": 19.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_019",
+      "nombre": "Sitycleta Plaza del Pilar",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4452422,
+      "latitude": 28.1298527,
+      "height": 20.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_020",
+      "nombre": "Sitycleta Intermodal El Rincón",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4512806,
+      "latitude": 28.1281604,
+      "height": 13.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_021",
+      "nombre": "Sitycleta Plaza Manuel Becerra (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4222619,
+      "latitude": 28.1500862,
+      "height": 12.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_022",
+      "nombre": "Sitycleta Plaza de España",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4350715,
+      "latitude": 28.1347504,
+      "height": 33.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_023",
+      "nombre": "Sitycleta San Bernardo",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4191419,
+      "latitude": 28.1047903,
+      "height": 32.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_024",
+      "nombre": "Sitycleta El Sebadal (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4217037,
+      "latitude": 28.1565199,
+      "height": 53.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_025",
+      "nombre": "Sitycleta Aparcamiento Sanapú",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4284478,
+      "latitude": 28.1454017,
+      "height": 10.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 37,
+        "z": 3.5
+      }
+    },
+    {
+      "id": "siticleta_026",
+      "nombre": "Sitycleta Mercado Central",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.432985,
+      "latitude": 28.133142,
+      "height": 25.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_027",
+      "nombre": "Sitycleta IES Mesa y López",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.439067,
+      "latitude": 28.131067,
+      "height": 27.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_028",
+      "nombre": "Sitycleta Plaza de América",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4412604,
+      "latitude": 28.1295967,
+      "height": 30.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_029",
+      "nombre": "Sitycleta Parque del Estadio Insular",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4331209,
+      "latitude": 28.128341,
+      "height": 21.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_030",
+      "nombre": "Sitycleta C.C. La Minilla",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4384603,
+      "latitude": 28.1258801,
+      "height": 69.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_031",
+      "nombre": "Sitycleta Paseo de Chil - Av. Escaleritas",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4345082,
+      "latitude": 28.1254287,
+      "height": 44.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_032",
+      "nombre": "Sitycleta Barranquillo Don Zoilo",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4296287,
+      "latitude": 28.1192035,
+      "height": 45.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_033",
+      "nombre": "Sitycleta León y Castillo",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4225843,
+      "latitude": 28.1166726,
+      "height": 16.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_034",
+      "nombre": "Sitycleta Plaza de la feria",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.420136,
+      "latitude": 28.1136158,
+      "height": 16.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_035",
+      "nombre": "Sitycleta Obelisco",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4229399,
+      "latitude": 28.1126189,
+      "height": 22.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_036",
+      "nombre": "Sitycleta Canódromo",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4339143,
+      "latitude": 28.112347,
+      "height": 111.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_037",
+      "nombre": "Sitycleta Cabildo de Gran Canaria",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4206422,
+      "latitude": 28.1083467,
+      "height": 25.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_038",
+      "nombre": "Sitycleta Castillo de Mata (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4217671,
+      "latitude": 28.108077,
+      "height": 33.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_039",
+      "nombre": "Sitycleta Infecar (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4456735,
+      "latitude": 28.1068748,
+      "height": 182.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_040",
+      "nombre": "Sitycleta C.C. La Ballena (elect.)",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4423285,
+      "latitude": 28.1004166,
+      "height": 153.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_041",
+      "nombre": "Sitycleta Plaza San Agustín",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4129308,
+      "latitude": 28.0995631,
+      "height": 21.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_042",
+      "nombre": "Sitycleta Ciudad de la Justicia",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4137313,
+      "latitude": 28.0943371,
+      "height": 13.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_043",
+      "nombre": "Sitycleta Vega de San José",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4188572,
+      "latitude": 28.0919079,
+      "height": 42.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_044",
+      "nombre": "Sitycleta San Cristóbal",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4168278,
+      "latitude": 28.0865921,
+      "height": 16.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_045",
+      "nombre": "Sitycleta Villa de Zarauz",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4189427,
+      "latitude": 28.0847362,
+      "height": 36.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_046",
+      "nombre": "Sitycleta Ciudad Deportiva",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4178688,
+      "latitude": 28.0790063,
+      "height": 30.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_047",
+      "nombre": "Sitycleta Hoya de la Plata",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4173119,
+      "latitude": 28.0735746,
+      "height": 30.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_048",
+      "nombre": "Sitycleta ULPGC - Polivalente I",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4523347,
+      "latitude": 28.0797956,
+      "height": 263.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_049",
+      "nombre": "Sitycleta ULPGC - CC. Jurídicas",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4496141,
+      "latitude": 28.0796893,
+      "height": 253.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_050",
+      "nombre": "Sitycleta ULPGC - Biblioteca General",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4512836,
+      "latitude": 28.0759134,
+      "height": 285.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "siticleta_051",
+      "nombre": "Sitycleta ULPGC - CC. Básicas",
+      "prefabName": "Pbycicle_shelter",
+      "longitude": -15.4526819,
+      "latitude": 28.073175,
+      "height": 314.0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "tag": "BikeShelter",
+"localOffset": {
+        "x": 0,
+        "y": 40,
+        "z": 0.0
+      }
+    }
+  ]
+}
