@@ -1,45 +1,34 @@
 # Visor LPGC
 
-Proyecto Unity para la visualización de Las Palmas de Gran Canaria.
+Visor 3D de Las Palmas de Gran Canaria desarrollado en Unity.
 
 ## Requisitos
 
-- Unity 6000.x o superior
+- **Unity 6000.4.9f1** (o superior de la rama 6000.x)
+  - Descargable desde [Unity Hub](https://unity.com/download)
 - Git
 
-## Cómo clonar el repositorio
+## Instalación
+
+1. Clona el repositorio:
 
 ```bash
 git clone https://github.com/Juanelboi/Visor_LP.git
 ```
 
-Abre la carpeta clonada desde Unity Hub como proyecto existente. Unity generará automáticamente la carpeta `Library` al abrir el proyecto por primera vez (puede tardar unos minutos).
+2. Abre **Unity Hub** y haz clic en **Add project from disk**.
+3. Selecciona la carpeta `Visor-LPGC` que se acaba de clonar.
+4. Unity generará automáticamente la carpeta `Library` al abrir el proyecto por primera vez — esto puede tardar varios minutos.
 
-## Estructura del proyecto
+## Abrir el proyecto
 
-```
-Assets/          # Escenas, scripts, modelos y recursos del proyecto
-Packages/        # Paquetes de Unity (gestionados por el Package Manager)
-ProjectSettings/ # Configuración del proyecto
-```
+Una vez abierto en Unity, ve a `File > Open Scene` y abre la escena principal desde la carpeta `Assets/`.
 
-## Flujo de trabajo con Git
+## Dependencias / Packages
 
-```bash
-# Ver cambios pendientes
-git status
-
-# Añadir cambios
-git add .
-
-# Crear un commit
-git commit -m "Descripción del cambio"
-
-# Subir al repositorio remoto
-git push
-```
+Los paquetes necesarios están declarados en `Packages/manifest.json` y se descargan automáticamente al abrir el proyecto con Unity. No es necesario instalar nada manualmente.
 
 ## Notas
 
-- La carpeta `Library/` está excluida del repositorio ya que Unity la regenera automáticamente.
-- No subir las carpetas `Temp/`, `Logs/` ni archivos `.csproj`/`.sln` generados por el IDE.
+- La carpeta `Library/` no está incluida en el repositorio; Unity la regenera sola al abrir el proyecto.
+- Si el proyecto no abre correctamente, asegúrate de usar exactamente la versión **6000.4.9f1** de Unity.
