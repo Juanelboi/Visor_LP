@@ -1,9 +1,6 @@
-using System.Collections;
-using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.Serialization.Json;
 
 public class Info : MonoBehaviour, IInteractable
 {

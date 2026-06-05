@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.01, y: 1.505}
-  m_SizeDelta: {x: -6, y: -2.99}
+  m_AnchoredPosition: {x: -7.9505, y: 0.995}
+  m_SizeDelta: {x: -4.099, y: -1.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1412872148619203402
 CanvasRenderer:
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Nobi.UiRoundedCorners::Nobi.UiRoundedCorners.ImageWithRoundedCorners
-  radius: 40
+  radius: 0.57
   image: {fileID: 2539100817522964117}
 --- !u!1 &2430189050512497160
 GameObject:
@@ -203,7 +203,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.00000047683716, y: 0}
-  m_SizeDelta: {x: -0.1834, y: -0.1019}
+  m_SizeDelta: {x: -0.5455, y: -0.3837}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2025496287679873684
 CanvasRenderer:
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1342172984, guid: f182d2b95d00bbb4880293d19bc0dde5, type: 3}
+  m_Sprite: {fileID: 196529498, guid: bd0e14add3a6709469e5f4588fd25319, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -816,14 +816,14 @@ GameObject:
   - component: {fileID: 2094877534082905358}
   - component: {fileID: 2670958387601938132}
   - component: {fileID: 524306152881696008}
-  - component: {fileID: 6845902025734798825}
+  - component: {fileID: 9053060644182662383}
   m_Layer: 11
   m_Name: Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1567890614043700021
 RectTransform:
   m_ObjectHideFlags: 0
@@ -910,7 +910,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6845902025734798825
+--- !u!114 &9053060644182662383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -919,12 +919,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7378129566426652230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1605bca3eb5c2bb4c91d8435440eb97b, type: 3}
+  m_Script: {fileID: 11500000, guid: 80be64ef529aca8499a2d6bb38afd74f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractionPromptUI
-  _promptText: {fileID: 0}
-  _uiPanel: {fileID: 0}
-  IsActive: 0
+  m_EditorClassIdentifier: Assembly-CSharp::LookAtPlayer
 --- !u!1 &9111464352299595440
 GameObject:
   m_ObjectHideFlags: 0

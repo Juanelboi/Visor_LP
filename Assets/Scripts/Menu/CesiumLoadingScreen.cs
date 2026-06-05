@@ -14,7 +14,7 @@ public class CesiumLoadingScreen : MonoBehaviour
     [SerializeField] private Image artworkImage;
     [SerializeField] private Sprite[] artworks;
     [SerializeField] private Slider progressBar;
-    [SerializeField] private Text tipText;
+    [SerializeField] private TMPro.TextMeshProUGUI tipText;
     [SerializeField] private string[] tips;
 
     [Header("Ajustes de carga")]

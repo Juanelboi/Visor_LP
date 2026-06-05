@@ -26,7 +26,7 @@ public class CarEnter : MonoBehaviour, IInteractable
 
     private void Update()
     {
-        if (_PlayerCar != null && _PlayerCar.activeSelf && Keyboard.current.f2Key.wasPressedThisFrame)
+        if (_PlayerCar != null && _PlayerCar.activeSelf && Keyboard.current.fKey.wasPressedThisFrame)
         {
             ExitCar();
         }
@@ -48,11 +48,10 @@ public class CarEnter : MonoBehaviour, IInteractable
 
     public void ExitCar()
     {
-        _PlayerPlayer.transform.position = _PlayerCar.transform.position + _PlayerCar.transform.forward * 2f;
+        _PlayerPlayer.transform.position = _PlayerCar.transform.position + _PlayerCar.transform.right * -2f;
         _PlayerPlayer.SetActive(true);
         _CarCamera.SetActive(false);
         _PlayerCar.GetComponent<PrometeoCarController>().enabled = false;
-        _PlayerCar.SetActive(false);
 
         // El minimapa vuelve a seguir al jugador
         if (_minimap != null)

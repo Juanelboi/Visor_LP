@@ -1,4 +1,3 @@
-using StarterAssets;
 using UnityEngine;
 
 public class GuaguaDoble : MonoBehaviour, IInteractable

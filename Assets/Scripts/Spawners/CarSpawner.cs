@@ -3,21 +3,20 @@ using UnityEngine;
 public class CarSpawner : MonoBehaviour
 {
     [Header("Prefab")]
-    [SerializeField] private GameObject carPrefab;         // Arrastra tu prefab aquí
+    [SerializeField] private GameObject carPrefab;         
 
     [Header("Referencias de Escena (se inyectan al spawneado)")]
-    [SerializeField] private GameObject playerObject;      // El jugador
-    [SerializeField] private GameObject playerCamera;      // Cámara del jugador
-    // La cámara del coche viene DENTRO del prefab, no hace falta asignarla aquí
+    [SerializeField] private GameObject playerObject;      
+    [SerializeField] private GameObject playerCamera;     
 
     [Header("Spawn")]
-    [SerializeField] private KeyCode spawnKey = KeyCode.F1;
+    [SerializeField] private KeyCode spawnKey = KeyCode.C;
     [SerializeField] private KeyCode DespawnKey = KeyCode.F3;
 
-    [SerializeField] private float spawnDistance = 5f;     // Metros delante del jugador
-    [SerializeField] private float spawnHeight = 0f;       // Ajuste de altura si hace falta
+    [SerializeField] private float spawnDistance = 5f;    
+    [SerializeField] private float spawnHeight = 0f;       
 
-    private GameObject currentCar;                         // Solo un coche a la vez
+    private GameObject currentCar;                         
 
     private void Update()
     {
@@ -51,7 +50,6 @@ public class CarSpawner : MonoBehaviour
         // Instancia el prefab
         currentCar = Instantiate(carPrefab, spawnPos, spawnRot);
 
-        // ── Inyección de referencias ──────────────────────────────────────
         CarEnter carEnter = currentCar.GetComponentInChildren<CarEnter>();
 
         if (carEnter == null)
@@ -60,16 +58,11 @@ public class CarSpawner : MonoBehaviour
             return;
         }
 
-        // Objetos de escena → se los pasamos nosotros
         carEnter._PlayerPlayer = playerObject;
         carEnter._PlayerCamera = playerCamera;
 
-        // El PlayerCar es el propio prefab spawneado (tiene el PrometeoCarController)
         carEnter._PlayerCar = currentCar;
 
-        // La CarCamera está DENTRO del prefab → la buscamos ahí
-        // Asegúrate de que la cámara del coche se llame "CarCamera" en el prefab
-        // o ajusta el nombre aquí:
         Transform carCamTransform = currentCar.transform.Find("CarCamera");
         if (carCamTransform != null)
             carEnter._CarCamera = carCamTransform.gameObject;
@@ -79,10 +72,6 @@ public class CarSpawner : MonoBehaviour
 
         Debug.Log($"Coche spawneado en {spawnPos} con todas las referencias inyectadas ✅");
     }
-
-    // Opcional: destruir el coche con F2
-    // private void Update() → añade esto dentro del Update de arriba:
-    //   if (Input.GetKeyDown(KeyCode.F2)) DespawnCar();
 
     public void DespawnCar()
     {
