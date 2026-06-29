@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c862f9c3b8456814d86b507887a08b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarEnter
-  _prompt: Enter the car
+  _prompt: Entrar al coche
   _CarCamera: {fileID: 6828139025414480005}
   _PlayerCamera: {fileID: 0}
   _PlayerPlayer: {fileID: 0}
